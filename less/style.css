@@ -1,0 +1,227 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Myriad Pro";
+}
+.header_cover {
+  width: 100%;
+  min-height: 85px;
+  background: url("../images/header.png") no-repeat;
+  background-size: cover;
+}
+.conteiner {
+  width: 960px;
+  margin: 0px auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -10px;
+}
+.header .menu {
+  width: 600px;
+  height: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+.header .menu ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+.header .menu ul li {
+  list-style: none;
+}
+.header .menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #454444;
+  font-weight: 400;
+}
+.header .menu ul li a:hover {
+  color: #d42907;
+}
+.main {
+  margin-top: 50px;
+}
+.news {
+  width: 730px;
+  float: left;
+}
+.news .main_news {
+  width: 729px;
+  height: 319px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
+.news .main_news img {
+  padding: 10px;
+  border: 1px solid #bdb9b9;
+}
+.news .main_news div {
+  position: absolute;
+  bottom: 10px;
+  width: 707px;
+  height: 70px;
+  margin-left: 11px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.news .main_news div p {
+  margin: 10px;
+}
+.news .main_news div p:first-child {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.news .main_news div p:last-child {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.square {
+  margin: 10px 40px 0px 0px;
+  float: right;
+}
+.square a {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #c0b9b9;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-right: 5px;
+}
+.square a:hover {
+  background-color: #09749c;
+}
+.box_news {
+  width: 729px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+.list {
+  width: 200px;
+  float: right;
+}
+.search {
+  position: relative;
+}
+.search form {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+.search form input:first-child {
+  border: none;
+  width: 140px;
+  padding-left: 20px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-size: 13px;
+  color: #302e2e;
+  font-weight: 400;
+}
+.search form input:last-child {
+  border: none;
+  width: 22px;
+  height: 22px;
+  background: url("../images/search.png") no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+}
+.menu_title {
+  width: 200px;
+  min-height: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  background-color: #f53f1a;
+  box-sizing: border-box;
+  padding: 12px 0px 10px 10px;
+}
+.menu_title a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.menu_box {
+  width: 190px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 5px;
+}
+.menu_box .box_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  border-bottom: 1px dashed #838181;
+  padding: 5px 0px;
+}
+.menu_box .box_list img {
+  border: 1px solid #d3d0d0;
+}
+.menu_box .box_list div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.menu_box .box_list div a {
+  margin-bottom: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #5a5757;
+  font-weight: 700;
+}
+.menu_box .box_list div p {
+  margin: 0px;
+  font-size: 13px;
+  color: #5a5757;
+  font-weight: 400;
+}
+.menu_box .box_list.border {
+  border-bottom: none;
+}
+.menu_box .box_list.categories {
+  justify-content: flex-start;
+  padding: 5px 15px;
+}
+.menu_box .box_list.categories a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #5a5757;
+  font-weight: 400;
+}
+.email form input:first-child {
+  width: 150px;
+  min-height: 30px;
+  border: 1px solid #c5c5c5;
+  background-color: #ffffff;
+  border-radius: 2px;
+  margin: 10px;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #3c3f46;
+  font-weight: 400;
+}
+.email form input:last-child {
+  border: 1px solid #aeaeae;
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #cccccc 0%, #eeeeee 100%);
+  width: 57px;
+  height: 25px;
+  margin: 0px 0px 5px 125px;
+  font-size: 13px;
+  color: #c39393;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
